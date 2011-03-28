@@ -1,0 +1,13 @@
+
+* TODO Features
+  ** Need a way to switch main image out for other imagse
+  ** Add animation class and replace all sdl_surfaces that appear with that class
+  ** Modify Timer class so that "Events" can be run every specified amount of time
+  ** Allow modification of sprite sizes so that hit boxes can be changed easily
+  ** Make it easier to compile on other platforms (Maybe use cmake?)
+
+* TODO Bugs/Testing
+  ** Still haven't tested buttons -- Could work, might not do anything
+  ** Can't get it compiling on osx with g++ -- Complains that cmath calls are not 64bit
+  ** Currently only works in osx
+  ** Need a way of testing to make sure that my changes work in a real game
